@@ -62,7 +62,7 @@ class UserController extends Controller
         $user = User::where('username', $request->input('username'))->first();
         $passwordValid = Hash::check($user->password, $request->input('password'));
 
-        if (! $passwordValid) {
+        if (!$passwordValid) {
             $errors = ['password' => ['Incorrect password']];
             self::incorrectlyFormattedPayload($errors);
         }
