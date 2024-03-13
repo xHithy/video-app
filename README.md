@@ -25,10 +25,11 @@ This is a quick step-by-step guide how the get the project running on your local
 ### API deployment
 
 1. Navigate to the API folder: `cd api`
-2. Install vendors: `composer install`
-3. Sail up: `./vendor/bin/sail up -d`
-4. Run database migrations: `./vendor/bin/sail artisan migrate`
-5. Run database seeders: `./vendor/bin/sail artisan db:seed`
+2. Create `.env` file from `.env.example` file
+3. Install vendors: `composer install`
+4. Sail up: `./vendor/bin/sail up -d`
+5. Run database migrations: `./vendor/bin/sail artisan migrate`
+6. Run database seeders: `./vendor/bin/sail artisan db:seed`
 
 ### Frontend deployment
 
