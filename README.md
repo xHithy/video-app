@@ -26,7 +26,7 @@ This is a quick step-by-step guide how the get the project running on your local
 
 1. Navigate to the API folder: `cd api`
 2. Install vendors: `composer install`
-3. Sail up: `./vendor/bin/sail up`
+3. Sail up: `./vendor/bin/sail up -d`
 4. Run database migrations: `./vendor/bin/sail artisan migrate`
 5. Run database seeders: `./vendor/bin/sail artisan db:seed`
 
