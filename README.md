@@ -4,7 +4,8 @@ Simple SPA which allows users to:
 
 - create and login to an account,
 - upload and remove videos,
-- sort them in playlists, collect statistics,
+- sort them in playlists,
+- collect statistics,
 - provide similar videos according to the users recently watched videos,
 - search videos using multiple criterias
 
