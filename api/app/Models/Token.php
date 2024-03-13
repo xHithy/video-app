@@ -20,8 +20,6 @@ class Token extends Model
 
     public $timestamps = false;
 
-    public mixed $token;
-
     protected $fillable = [
         'token',
         'user_id',
